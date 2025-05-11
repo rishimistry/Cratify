@@ -92,7 +92,7 @@ export default function ShopPage() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
               >
-                Discover unique handcrafted treasures from talented artisans around the world.
+                Browse our collection of unique handcrafted products from talented artisans.
               </motion.p>
             </div>
           </motion.div>
@@ -358,7 +358,7 @@ export default function ShopPage() {
                   >
                     <h3 className="text-lg font-medium text-gray-900">No products found</h3>
                     <p className="mt-1 text-sm text-gray-500">
-                      Try adjusting your search or filter to find what you're looking for.
+                      Try adjusting your search or filter to find what you&apos;re looking for.
                     </p>
                   </motion.div>
                 ) : (

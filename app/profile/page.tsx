@@ -464,7 +464,7 @@ export default function ProfilePage() {
                       ))
                     ) : (
                       <div className="p-6 text-center">
-                        <p className="text-gray-500">You haven't placed any orders yet.</p>
+                        <p className="text-gray-500">You haven&apos;t placed any orders yet.</p>
                         <Link href="/shop" className="mt-2 inline-block text-primary-600 hover:text-primary-700">
                           Start shopping
                         </Link>
@@ -530,7 +530,7 @@ export default function ProfilePage() {
                       ))
                     ) : (
                       <div className="col-span-2 text-center py-8">
-                        <p className="text-gray-500">You haven't added any addresses yet.</p>
+                        <p className="text-gray-500">You haven&apos;t added any addresses yet.</p>
                         <Link
                           href="/profile/addresses/new"
                           className="mt-2 inline-block text-primary-600 hover:text-primary-700"

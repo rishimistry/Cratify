@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 export default function JoinArtisans() {
   return (
@@ -90,15 +91,12 @@ export default function JoinArtisans() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.8 }}
             >
-              <a 
-                href="/artisans/apply" 
-                className="inline-flex items-center px-6 py-3 bg-primary-500 text-white font-medium rounded-md hover:bg-primary-600 transition-colors"
+              <Link 
+                href="/artisans/apply/"
+                className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors"
               >
-                Apply to Join
-                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                </svg>
-              </a>
+                Apply Now
+              </Link>
             </motion.div>
           </motion.div>
         </div>

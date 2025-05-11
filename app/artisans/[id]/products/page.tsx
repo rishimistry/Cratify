@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
   
   return {
-    title: `${artisanInfo.name}'s Products | Cratify`,
+    title: `${artisanInfo.name}\'s Products | Cratify`,
     description: `Browse handcrafted products from ${artisanInfo.name}, a talented artisan on Cratify`,
   };
 }
@@ -45,8 +45,12 @@ export default function ArtisanProductsPage({ params }: Props) {
     <main className="bg-gray-50 pb-16 pt-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="mb-8 text-center text-3xl font-bold text-gray-900 sm:text-left">
-          {artisanInfo.name}'s Products
+          {artisanInfo.name}&apos;s Products
         </h1>
+        
+        <p className="text-gray-600">
+          Browse through our artisan&apos;s unique collection of handcrafted products.
+        </p>
         
         <ArtisanProducts artisanId={id} artisanName={artisanInfo.name} />
       </div>

@@ -387,7 +387,7 @@ export default function ArtisanProfile({ artisanId }: ArtisanProfileProps) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
                   <h3 className="mt-2 text-lg font-medium text-gray-900">No reviews yet</h3>
-                  <p className="mt-1 text-gray-500">This artisan doesn't have any reviews yet.</p>
+                  <p className="mt-1 text-gray-500">This artisan doesn&apos;t have any reviews yet.</p>
                 </div>
               )}
             </div>

@@ -5,12 +5,11 @@ export default function CallToAction() {
     <section className="bg-primary-600 py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
-            Join Our Artisan Community
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Ready to start your journey with us?
           </h2>
-          <p className="text-lg text-primary-100 mb-8">
-            Whether you're a skilled craftsperson looking to share your creations with the world
-            or a shopper seeking unique handmade treasures, Craftify is the place for you.
+          <p className="text-lg text-white/90 mb-8">
+            Join our community of artisans and customers who value quality craftsmanship.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

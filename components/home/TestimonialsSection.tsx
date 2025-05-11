@@ -8,7 +8,7 @@ const testimonials = [
   {
     id: 1,
     content:
-      "I found the most beautiful handcrafted earrings on Craftify. Each time I wear them, I get so many compliments! It's wonderful to own something so unique that also supports a local artist.",
+      "I found the most beautiful handcrafted earrings on Craftify. Each time I wear them, I get so many compliments! It&apos;s wonderful to own something so unique that also supports a local artist.",
     author: "Emma Thompson",
     role: "Fashion Designer",
     image: "https://randomuser.me/api/portraits/women/32.jpg",
@@ -16,7 +16,7 @@ const testimonials = [
   {
     id: 2,
     content:
-      "As an artisan, Craftify has been the perfect platform to showcase my work. The community is supportive, and I've connected with customers who truly appreciate handmade quality.",
+      "As an artisan, Craftify has been the perfect platform to showcase my work. The community is supportive, and I&apos;ve connected with customers who truly appreciate handmade quality.",
     author: "Michael Rodriguez",
     role: "Ceramic Artist",
     image: "https://randomuser.me/api/portraits/men/46.jpg",
@@ -77,8 +77,8 @@ export default function TestimonialsSection() {
                     />
                   </div>
                 </div>
-                <blockquote className="italic text-lg md:text-xl text-gray-700 mb-6">
-                  "{testimonials[currentIndex].content}"
+                <blockquote className="text-lg text-gray-700 italic">
+                  &ldquo;{testimonials[currentIndex].content}&rdquo;
                 </blockquote>
                 <div className="font-medium text-gray-900">
                   {testimonials[currentIndex].author}

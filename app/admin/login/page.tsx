@@ -98,8 +98,8 @@ export default function AdminLogin() {
             </div>
           </div>
           <h2 className="mt-6 text-3xl font-serif font-bold text-gray-900">Admin Login</h2>
-          <p className="mt-2 text-sm text-gray-600">
-            Enter your credentials to access the admin panel
+          <p className="text-gray-600 mb-6">
+            Sign in to access the admin dashboard and manage your store.
           </p>
         </div>
         <div className="mt-8 bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
@@ -165,7 +165,7 @@ export default function AdminLogin() {
           <div className="mt-10 pt-6 border-t border-gray-200">
             <h3 className="text-center text-lg font-medium text-gray-900">Need a regular account?</h3>
             <p className="mt-2 text-center text-sm text-gray-600">
-              If you're looking to shop on Cratify, you can create a customer account.
+              If you&apos;re looking to shop on Cratify, you can create a customer account.
             </p>
             <div className="mt-4">
               <Link

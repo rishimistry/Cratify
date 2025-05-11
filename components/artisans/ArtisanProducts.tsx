@@ -40,7 +40,7 @@ const ArtisanProducts: React.FC<ArtisanProductsProps> = ({ artisanId, artisanNam
 
   return (
     <div className="py-8">
-      <h2 className="text-2xl font-bold mb-6">{artisanName}'s Products</h2>
+      <h2 className="text-2xl font-bold mb-6">{artisanName}&apos;s Products</h2>
       
       <div className="mb-8 space-y-4">
         <div className="flex flex-wrap gap-2">
@@ -156,6 +156,10 @@ const ArtisanProducts: React.FC<ArtisanProductsProps> = ({ artisanId, artisanNam
           </button>
         </motion.div>
       )}
+
+      <p className="text-gray-600">
+        Browse through our artisan&apos;s unique collection of handcrafted products.
+      </p>
     </div>
   );
 };

@@ -99,7 +99,7 @@ export default function CheckoutPage() {
               </div>
               <h1 className="text-3xl font-semibold mb-3">Order Confirmed!</h1>
               <p className="text-lg text-gray-600 mb-6">
-                Thank you for your order. We've sent a confirmation email to {formData.email}.
+                Thank you for your order. We&apos;ve sent a confirmation email to {formData.email}.
               </p>
               <p className="text-gray-500 mb-8">Order ID: {Math.random().toString(36).substring(2, 10).toUpperCase()}</p>
               
@@ -455,6 +455,10 @@ export default function CheckoutPage() {
                     </div>
                   </div>
                 </div>
+                
+                <p className="text-gray-600">
+                  Please review your order details before proceeding to payment.
+                </p>
                 
                 <motion.button
                   whileHover={{ scale: 1.03 }}

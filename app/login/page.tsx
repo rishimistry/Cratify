@@ -79,8 +79,11 @@ export default function LoginPage() {
         <h2 className="mt-6 text-center text-3xl font-serif font-bold text-gray-900">
           Sign in to your account
         </h2>
+        <p className="text-gray-600">
+          Sign in to your account to access your orders, wishlist, and more.
+        </p>
         <p className="mt-2 text-center text-sm text-gray-600">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             href="/register"
             className="font-medium text-primary-600 hover:text-primary-500"
